@@ -33,14 +33,15 @@
     <link rel="manifest" href="manifest.json">
 </head>
 <body>
-  <script>
+<script>
     document.addEventListener('wheel', function(e) {
       e.ctrlKey && e.preventDefault();
     }, {
       passive: false,
     });
-  </script>
-  <script>
+
+</script>
+<script>
     window.addEventListener('keydown', function(e) {
       if (event.metaKey || event.ctrlKey) {
         switch (event.key) {
@@ -51,22 +52,13 @@
         }
       }
     });
-  </script>
-<script>
-  // This prevents zooming in using CTRL + mouse wheel.
-  // See https://stackoverflow.com/a/67039291/6509751.
-  document.addEventListener('wheel', function(e) {
-    e.ctrlKey && e.preventDefault();
-  }, {
-    passive: false,
-  });
 
 </script>
 <!-- This script installs service_worker.js to provide PWA functionality to
      application. For more information, see:
      https://developers.google.com/web/fundamentals/primers/service-workers -->
 <script>
-    var serviceWorkerVersion = '798400461';
+    var serviceWorkerVersion = '1138015911';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -128,6 +120,7 @@
       // Service workers not supported. Just drop the <script> tag.
       loadMainDartJs();
     }
+
 
 </script>
 </body>
