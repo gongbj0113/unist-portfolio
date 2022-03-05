@@ -60562,13 +60562,12 @@ $2(a,b){var s,r,q,p,o,n,m=null,l=this.a,k=b.d,j=A.R(224,255,(660-k)/660)
 j.toString
 j=A.al(B.d.dh(j),80,60,60)
 s=l.a6I()
-k=k>200
-r=k?l.JG(1):A.dh(m,m,m)
+r=k>100?l.JG(1):A.dh(m,m,m)
 q=A.dh(m,140,m)
 p=t.D
 o=A.Sk(new A.bF(new A.aM(300,0,300,0),A.kp(A.b([A.f5(A.b([A.cd(" UNIST 22\ud559\ubc88",m,A.a9I(B.j,40,B.bq,m),B.da,m),A.dh(m,14,m),A.cd("\uacf5\ubcd1\uc900\uc758",m,A.a9I(B.j,60,B.br,20),B.da,m)],p),B.b4,B.ae,B.H),A.dh(m,m,140),A.cd("Portfolio!",m,A.a9J(B.j,80,B.b7),m,m)],p),B.a1,B.aR,B.H),m),B.l_)
 n=A.dh(m,100,m)
-return A.a9q(A.d3(m,A.f5(A.b([s,A.adJ(A.f5(A.b([r,q,o,n,k?l.JG(-1):A.dh(m,m,m)],p),B.a1,B.aR,B.H))],p),B.a1,B.ae,B.H),j,m,1/0,m,m,1/0))},
+return A.a9q(A.d3(m,A.f5(A.b([s,A.adJ(A.f5(A.b([r,q,o,n,k>200?l.JG(-1):A.dh(m,m,m)],p),B.a1,B.aR,B.H))],p),B.a1,B.ae,B.H),j,m,1/0,m,m,1/0))},
 $S:366}
 A.DQ.prototype={
 R(a,b){var s=null,r=t.D
